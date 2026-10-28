@@ -1,0 +1,31 @@
+{
+  "name": "t1tsmetric",
+  "version": "1.3.0",
+  "description": "A local Windows storage analyzer with an interactive VRoid avatar",
+  "main": "main.cjs",
+  "author": {
+    "name": "nineflowersoflotus",
+    "url": "https://github.com/nineflowersoflotus"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "release": "node scripts/release.cjs",
+    "postinstall": "node node_modules/electron/install.js"
+  },
+  "dependencies": {
+    "@pixiv/three-vrm": "3.5.5",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "electron": "45.1.0",
+    "@electron/packager": "20.3.0",
+    "esbuild": "0.28.2"
+  },
+  "productName": "T1TSMetric",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

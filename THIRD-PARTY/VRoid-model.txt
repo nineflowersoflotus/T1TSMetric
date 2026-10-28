@@ -1,0 +1,3 @@
+Victoria Rubin / pixiv VRoid Project — CC0 1.0
+https://vroid.pixiv.help/hc/en-us/articles/360014900233
+Source mirror: https://github.com/madjin/vrm-samples/blob/master/vroid/beta/Victoria_Rubin.vrm
